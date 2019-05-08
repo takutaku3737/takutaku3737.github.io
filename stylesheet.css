@@ -1,0 +1,435 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ここまでリセット */
+
+body {
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+
+.header-0{
+	background: #333880;
+}
+
+.header-1{
+  display: flex;
+  height: 80px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-1 ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  line-height: 80px;
+}
+
+header li{
+  list-style: none;
+  margin: 0 10px;
+}
+
+.logo{
+  font-size: 50px;
+  background: re;
+  padding: 0 20px;
+  line-height: 80px;
+}
+
+.header-2{
+  background: #FACC2E;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.header-2 a{
+  display: inline-block;
+  padding: 6px 0;
+}
+
+.top1{
+  text-align: center;
+  padding-top: 60px;
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/PAK85_hikarihansyasuimen20141206100932_TP_V.jpg);
+}
+
+.words1, .words2{
+  font-size: 44px;
+  color: #5D5D5D;
+}
+
+.words2{
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.words3{
+  color: #5D5D5D;
+}
+
+.top1 .btn{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background: #FACC2E;
+  padding: 16px 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
+
+
+.pickup img{
+  height: 140px;
+  width: 244px;
+  opacity: 0.9;
+}
+
+.pickup{
+  width: 100%;
+}
+
+.pickup-contents{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 130px;
+}
+
+.pick{
+  position: relative;
+}
+
+.pick p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  padding: 15px 11px;
+  border-radius: 20px;
+  color: #1C1C1C;
+  border: solid 4px #BDBDBD;
+}
+
+.topick-menu{
+	width: 100%;
+}
+
+.topick-menu-contents{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.topick-btn{
+	background: #E6E6E6;
+	color: #585858;
+	height: 34px;
+	width: 24.5%;
+	text-align: center;
+	line-height: 34px;
+	font-size: 14px;
+}
+
+.article img{
+	width: 340px;
+}
+
+.article-title{
+  font-size: 19px;
+	letter-spacing: 2px;
+	color: dimgray;
+	line-height: 25px;
+	width: 340px;
+	padding-bottom: 40px;
+}
+
+.article-title p{
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+.article{
+	box-shadow: 0 0 3px #BDBDBD;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.articles{
+  display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 78%;
+	margin: 0 auto;
+}
+
+.topick-contents{
+	width: 100%;
+	padding-top: 60px;
+}
+
+.article-left-top{
+	position: absolute;
+	top:12px;
+	left: 14px;
+	font-size: 11px;
+	font-weight: 200;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 15px;
+}
+
+.lt-1{
+  background: orange;
+}
+
+.lt-2{
+	background: lime;
+}
+
+.lt-3{
+	background: gold;
+}
+
+.article-date{
+  position: absolute;
+	bottom: 10px;
+	right: 13px;
+	color: gray;
+	font-size: 13px;
+}
+
+.main-bottom{
+	padding: 30px 0;
+}
+
+.numbers{
+  display: flex;
+	justify-content: center;
+}
+
+.number{
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	box-shadow: 0 0 5px darkgray;
+	border-radius: 50%;
+	color: gray;
+}
+
+.number-center{
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+footer{
+	background-color: #333880;
+	color: white;
+}
+
+footer a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.footer-left{
+	width: 30%;
+}
+
+.footer-logo{
+	font-size: 65px;
+	padding: 50px 0 30px 0;
+	text-align: center;
+}
+
+.footer-text-1, .footer-text-2, .footer-btn{
+	font-weight: 100;
+	font-size: 14px;
+	letter-spacing: 2px;
+  line-height: 22px;
+}
+
+.footer-text-1{
+	margin-bottom: 18px;
+}
+
+.footer-btn{
+	display: block;
+  background: orange;
+  width: 65%;
+	margin: 30px auto 0 auto;
+	text-align: center;
+	padding: 4%;
+	border-radius: 30px;
+}
+
+.footer-menu{
+	border-left: solid 3px orange;
+	padding: 2px 8px;
+	font-size: 17px;
+}
+
+footer li{
+	margin-top: 14px;
+	font-size: 13px;
+}
+
+.footer-wrapper{
+	display: flex;
+}
+
+.m{
+	margin-top: 36px;
+	margin-lef: 5%;
+}
+
+.tags li{
+	display: inline-block;
+}
+
+.f-left, .f-center{
+	width: 17%;
+}
+
+.f-left{
+	margin-left: 5%;
+}
+
+.f-right{
+	width: 31%;
+}
+
+.tags li{
+	font-size: 11px;
+	background: rgba(255, 255, 255, 0.3);
+	padding: 5px 8px;
+	border-radius: 1px;
+	margin: 3px 1px;
+}
+
+.tags .footer-menu{
+	margin-bottom: 9px;
+}
+
+.popular-post img{
+	width: 100%;
+}
+
+.popular-post li{
+	display: flex;
+}
+
+.img-contents{
+	width: 35%;
+	position: relative;
+}
+
+.img-contents p{
+	position: absolute;
+	top: 0;
+	left:0;
+	background: orange;
+	padding: 4% 7%;
+	font-size: 11px;
+}
+
+.img-p{
+	width: 60%;
+	margin-left: 5%;
+}
+
+.footer-2-wrapper{
+	border-top: solid 1px white;
+	height: 46px;
+	margin-top: 40px;
+}
+
+.footer-2{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	height: 46px;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+.footer-2 p{
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+.a-wrapper{
+	margin-top: 20px;
+}
+
+.footer-2 a{
+	padding: 3px 10px 3px 10px;
+	border-left: white solid 1px;
+}
+
+.a-w-2{
+	border-right: white solid 1px;
+}
